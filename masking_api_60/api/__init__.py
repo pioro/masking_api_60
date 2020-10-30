@@ -28,6 +28,8 @@ from masking_api_60.api.file_ruleset_api import FileRulesetApi
 from masking_api_60.api.file_upload_api import FileUploadApi
 from masking_api_60.api.hidden_logging_api import HiddenLoggingApi
 from masking_api_60.api.installation_api import InstallationApi
+from masking_api_60.api.jdbc_driver_api import JdbcDriverApi
+from masking_api_60.api.jvm_permission_api import JvmPermissionApi
 from masking_api_60.api.knowledge_base_info_api import KnowledgeBaseInfoApi
 from masking_api_60.api.logging_api import LoggingApi
 from masking_api_60.api.login_api import LoginApi
@@ -35,10 +37,12 @@ from masking_api_60.api.mainframe_dataset_connector_api import MainframeDatasetC
 from masking_api_60.api.mainframe_dataset_field_metadata_api import MainframeDatasetFieldMetadataApi
 from masking_api_60.api.mainframe_dataset_format_api import MainframeDatasetFormatApi
 from masking_api_60.api.mainframe_dataset_metadata_api import MainframeDatasetMetadataApi
+from masking_api_60.api.mainframe_dataset_record_type_api import MainframeDatasetRecordTypeApi
 from masking_api_60.api.mainframe_dataset_ruleset_api import MainframeDatasetRulesetApi
 from masking_api_60.api.masking_job_api import MaskingJobApi
 from masking_api_60.api.mount_filesystem_api import MountFilesystemApi
 from masking_api_60.api.non_conformant_data_sample_api import NonConformantDataSampleApi
+from masking_api_60.api.plugin_api import PluginApi
 from masking_api_60.api.profile_expression_api import ProfileExpressionApi
 from masking_api_60.api.profile_job_api import ProfileJobApi
 from masking_api_60.api.profile_set_api import ProfileSetApi
